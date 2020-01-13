@@ -9,6 +9,7 @@ describe "current_age_for_birth_year method" do
     puts("answer = " + answer.to_s)
 
     age_of_person = current_age_for_birth_year(birth_year)
+    puts("age of person = " + age_of_person)
     expect(age_of_person).to eq(19)
   end
 end
