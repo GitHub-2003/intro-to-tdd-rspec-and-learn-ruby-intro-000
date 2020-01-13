@@ -6,10 +6,10 @@ describe "current_age_for_birth_year method" do
     current_year = Time.now.year
     birth_year = 1984
     answer = current_year - birth_year
-    puts("answer = " + answer.to_s)
+    puts("Test answer = " + answer.to_s)
 
     age_of_person = current_age_for_birth_year(birth_year)
-    puts("age of person = " + age_of_person.to_s)
+    puts("Code for age of person = " + age_of_person.to_s)
     expect(age_of_person).to eq(answer)
   end
 end
